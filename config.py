@@ -4,7 +4,7 @@ import os
 
 # define path to the original dataset and base path to the dataset
 # splits
-DATA_PATH = "flower_photos"
+DATA_PATH = "/kaggle/input/flower-photos/flower_photos"
 BASE_PATH = "dataset"
 
 # define validation split and paths to separate train and validation
