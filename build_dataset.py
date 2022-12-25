@@ -18,7 +18,7 @@ def copy_images(imagePaths, folder):
 		# grab image name and its label from the path and create
 		# a placeholder corresponding to the separate label folder
 		imageName = path.split(os.path.sep)[-1]
-		label = path.split(os.path.sep)[1]
+		label = path.split(os.path.sep)[-2]
 		labelFolder = os.path.join(folder, label)
 
 		# check to see if the label folder exists and if not create it
